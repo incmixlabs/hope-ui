@@ -33,6 +33,7 @@ const CSSVariables = lazy(() => import("./pages/theming/css-variables"));
 const ColorMode = lazy(() => import("./pages/theming/color-mode"));
 
 const ButtonDoc = lazy(() => import("./pages/component-docs/general/button"));
+const SplitButtonDoc = lazy(() => import("./pages/component-docs/general/split-button"));
 const IconButtonDoc = lazy(() => import("./pages/component-docs/general/icon-button"));
 
 const AspectRatioDoc = lazy(() => import("./pages/component-docs/layout/aspect-ratio"));
@@ -149,6 +150,7 @@ export default function App() {
           <Route path="/general">
             <Route path="/button" element={<ButtonDoc />} />
             <Route path="/icon-button" element={<IconButtonDoc />} />
+            <Route path="/split-button" element={<SplitButtonDoc />} />
           </Route>
           <Route path="/layout">
             <Route path="/aspect-ratio" element={<AspectRatioDoc />} />

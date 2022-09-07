@@ -36,6 +36,7 @@ export default function MainNavContent() {
       <VStack alignItems="flex-start" spacing="$1" mb="$6">
         <AppNavLink href="/docs/general/button">Button</AppNavLink>
         <AppNavLink href="/docs/general/icon-button">IconButton</AppNavLink>
+        <AppNavLink href="/docs/general/split-button">SplitButton</AppNavLink>
       </VStack>
       <MainNavSubtitle mb="$2">Layout</MainNavSubtitle>
       <VStack alignItems="flex-start" spacing="$1" mb="$6">
